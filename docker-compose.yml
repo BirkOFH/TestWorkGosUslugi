@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  testworkgosuslugi:
+    image: ${DOCKER_REGISTRY-}testworkgosuslugi
+    build:
+      context: .
+      dockerfile: TestWorkGosUslugi/Dockerfile
